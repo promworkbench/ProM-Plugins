@@ -163,11 +163,33 @@
 
 	<target name="resolve">
 		<ivy:retrieve />
-		<!--copy todir="lib" overwrite="true">
+		<copy todir="lib" overwrite="true">
 			<fileset dir="ivy">
-				<include name="xxx.jar" />
+				<!-- The following libraries are not needed by ProM-Plugins, but
+				     where present in the stdlib folder of the framework. They are
+				     copied here to keep them in. -->
+				<include name="collections-generic-4.01.jar" />
+				<include name="colt-1.0.3.jar" />
+				<include name="commons-math-3.1.jar" />
+				<include name="commons-math3-3.5.jar" />
+				<include name="FilterableSortableTablePanel.jar" />
+				<include name="flanagan-0.9alpha.jar" />
+				<include name="jas-plotter-2.2.jar" />
+				<include name="jcommon-1.0.16.jar" />
+				<include name="jdom-legacy-1.1.3.jar" />
+				<include name="jfreechart-1.0.14.jar" />
+				<include name="jlfgr-1_0.jar" />
+				<include name="jung-algorithms-2.0.jar" />
+				<include name="jung-api-2.0.jar" />
+				<include name="jung-graph-impl-2.0.jar" />
+				<include name="jung-io-2.0.jar" />
+				<include name="jung-visualization-2.0.jar" />
+				<include name="openide-lookup-1.9-patched-1.0.jar" />
+				<include name="simmetrics-latest.jar" />
+				<include name="weka-latest.jar" />
+				<include name="xpp3-1.1.4c.jar" />
 			</fileset>
-		</copy-->
+		</copy>
 	</target>
 
 </project>
