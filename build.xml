@@ -168,6 +168,7 @@
 				<!-- The following libraries are not needed by ProM-Plugins, but
 				     where present in the stdlib folder of the framework. They are
 				     copied here to keep them in. -->
+				<include name="axis-1.4.jar" />
 				<include name="collections-generic-4.01.jar" />
 				<include name="colt-1.0.3.jar" />
 				<include name="commons-math-3.1.jar" />
