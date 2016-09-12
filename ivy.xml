@@ -5,8 +5,10 @@
     	</description>
     </info>
     <dependencies>
-       <dependency org="prom" name="ProM-Contexts" rev="latest" changing="true" transitive="true" />
-       <dependency org="prom" name="ProM-Models" rev="latest" changing="true" transitive="true" />
+       <dependency 
+           org="prom" name="ProM-Contexts" rev="latest" changing="true" transitive="true" />
+       <dependency 
+           org="prom" name="ProM-Models" rev="latest" changing="true" transitive="true" />
  	   <!-- The following libraries are not needed by ProM-Plugins, but
 			where present in the stdlib folder of the framework. They are
 			copied here to keep them in. -->
