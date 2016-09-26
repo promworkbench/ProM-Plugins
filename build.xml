@@ -163,6 +163,11 @@
 
 	<target name="resolve">
 		<ivy:retrieve />
+		<delete>
+			<fileset dir="lib">
+				<include name="*" />
+			</fileset>
+		</delete>
 		<copy todir="lib" overwrite="true">
 			<fileset dir="ivy">
 				<!-- The following libraries are not needed by ProM-Plugins, but
@@ -171,7 +176,7 @@
 				<include name="axis-1.4.jar" />
 				<include name="collections-generic-4.01.jar" />
 				<include name="colt-1.0.3.jar" />
-				<include name="commons-math-3.1.jar" />
+				<!--include name="commons-math-3.1.jar" /-->
 				<include name="commons-math3-3.5.jar" />
 				<include name="FilterableSortableTablePanel-latest.jar" />
 				<include name="flanagan-0.9alpha.jar" />
