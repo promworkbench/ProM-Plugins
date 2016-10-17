@@ -32,7 +32,8 @@
        <dependency org="net.sf.jung" name="jung-visualization" rev="2.0" changing="false" transitive="false" />
        <dependency org="prom-libs" name="openide-lookup" rev="1.9-patched-1.0" changing="false" transitive="false" />
        <dependency org="prom-libs" name="simmetrics" rev="latest" changing="false" transitive="false" />
-       <dependency org="prom-libs" name="weka" rev="latest" changing="false" transitive="false" />
+       <!-- Replaced by newer version, see next line. dependency org="prom-libs" name="weka" rev="latest" changing="false" transitive="false" /-->
+       <dependency org="nz.ac.waikato.cms.weka" name="weka-stable" rev="3.8.0"  changing="false" transitive="false" />
        <dependency org="xpp3" name="xpp3" rev="1.1.4c" changing="false" transitive="false" />
     </dependencies>
 </ivy-module>
