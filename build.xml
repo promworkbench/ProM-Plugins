@@ -192,7 +192,7 @@
 				<include name="jung-visualization-2.0.jar" />
 				<include name="openide-lookup-1.9-patched-1.0.jar" />
 				<include name="simmetrics-latest.jar" />
-				<include name="weka-stable-3.8.0.jar" />
+				<include name="weka-stable-3.6.14.jar" />
 				<include name="xpp3-1.1.4c.jar" />
 			</fileset>
 		</copy>

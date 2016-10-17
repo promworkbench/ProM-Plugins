@@ -33,7 +33,8 @@
        <dependency org="prom-libs" name="openide-lookup" rev="1.9-patched-1.0" changing="false" transitive="false" />
        <dependency org="prom-libs" name="simmetrics" rev="latest" changing="false" transitive="false" />
        <!-- Replaced by newer version, see next line. dependency org="prom-libs" name="weka" rev="latest" changing="false" transitive="false" /-->
-       <dependency org="nz.ac.waikato.cms.weka" name="weka-stable" rev="3.8.0"  changing="false" transitive="false" />
+       <!-- Version 3.8.0 of weka does not include Id3 classifier. Required by, for example, SignatrueDiscovery. -->
+       <dependency org="nz.ac.waikato.cms.weka" name="weka-stable" rev="3.6.14"  changing="false" transitive="false" />
        <dependency org="xpp3" name="xpp3" rev="1.1.4c" changing="false" transitive="false" />
     </dependencies>
 </ivy-module>
