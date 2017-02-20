@@ -18,7 +18,7 @@
 			copied here to keep them in. -->
        <dependency conf="lib->default" org="org.apache.axis" name="axis" rev="1.4" changing="false" transitive="false" />
        <dependency conf="lib->default" org="net.sourceforge.collections" name="collections-generic" rev="4.01" changing="false" transitive="false" />
-       <dependency conf="lib->default" org="colt" name="colt" rev="1.0.3" changing="false" transitive="false" />
+       <dependency conf="lib->default" org="colt" name="colt" rev="1.2.0" changing="false" transitive="false" />
        <!-- 09/26/2016, HV: Removed as it contain version 3.1 of math3, while we already have 3.5 for that. -->
        <!--dependency org="prom-libs" name="commons-math" rev="3.1" changing="false" transitive="false" /-->
        <dependency conf="lib->default" org="org.apache.commons" name="commons-math3" rev="3.5" changing="false" transitive="false" />
