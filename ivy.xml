@@ -32,19 +32,19 @@
        <!--dependency conf="lib->default" org="org.jfree" name="jfreechart" rev="1.0.14" changing="false" transitive="false" /-->
        <dependency conf="lib->default" org="org.jfree" name="jfreechart" rev="1.0.19" changing="false" transitive="false" />
        <dependency conf="lib->default" org="net.java.linoleum" name="jlfgr" rev="1_0" changing="false" transitive="false" />
-       <!--dependency conf="lib->default" org="net.sf.jung" name="jung-algorithms" rev="2.0" changing="false" transitive="false" /-->
-       <dependency conf="lib->default" org="net.sf.jung" name="jung-algorithms" rev="2.1.1" changing="false" transitive="false" />
-       <!--dependency conf="lib->default" org="net.sf.jung" name="jung-api" rev="2.0" changing="false" transitive="false" /-->
-       <dependency conf="lib->default" org="net.sf.jung" name="jung-api" rev="2.1.1" changing="false" transitive="false" />
-       <!--dependency conf="lib->default" org="net.sf.jung" name="jung-graph-impl" rev="2.0" changing="false" transitive="false" /-->
-       <dependency conf="lib->default" org="net.sf.jung" name="jung-graph-impl" rev="2.1.1" changing="false" transitive="false" />
-       <!--dependency conf="lib->default" org="net.sf.jung" name="jung-io" rev="2.0" changing="false" transitive="false" /-->
-       <dependency conf="lib->default" org="net.sf.jung" name="jung-io" rev="2.1.1" changing="false" transitive="false" />
-       <!--dependency conf="lib->default" org="net.sf.jung" name="jung-visualization" rev="2.0" changing="false" transitive="false" /-->
-       <dependency conf="lib->default" org="net.sf.jung" name="jung-visualization" rev="2.1.1" changing="false" transitive="false" />
+       <dependency conf="lib->default" org="net.sf.jung" name="jung-algorithms" rev="2.0" changing="false" transitive="false" />
+       <!--dependency conf="lib->default" org="net.sf.jung" name="jung-algorithms" rev="2.1.1" changing="false" transitive="false" /-->
+       <dependency conf="lib->default" org="net.sf.jung" name="jung-api" rev="2.0" changing="false" transitive="false" />
+       <!--dependency conf="lib->default" org="net.sf.jung" name="jung-api" rev="2.1.1" changing="false" transitive="false" /-->
+       <dependency conf="lib->default" org="net.sf.jung" name="jung-graph-impl" rev="2.0" changing="false" transitive="false" />
+       <!--dependency conf="lib->default" org="net.sf.jung" name="jung-graph-impl" rev="2.1.1" changing="false" transitive="false" /-->
+       <dependency conf="lib->default" org="net.sf.jung" name="jung-io" rev="2.0" changing="false" transitive="false" />
+       <!--dependency conf="lib->default" org="net.sf.jung" name="jung-io" rev="2.1.1" changing="false" transitive="false" /-->
+       <dependency conf="lib->default" org="net.sf.jung" name="jung-visualization" rev="2.0" changing="false" transitive="false" />
+       <!--dependency conf="lib->default" org="net.sf.jung" name="jung-visualization" rev="2.1.1" changing="false" transitive="false" /-->
        <dependency conf="lib->default" org="prom-libs" name="openide-lookup" rev="1.9-patched-1.0" changing="false" transitive="false" />
-       <!--dependency conf="lib->default" org="prom-libs" name="simmetrics" rev="latest" changing="false" transitive="false" /-->
-	   <dependency conf="lib->default" org="com.github.mpkorstanje" name="simmetrics" rev="4.1.1" changing="false" transitive="false" />
+       <dependency conf="lib->default" org="prom-libs" name="simmetrics" rev="latest" changing="false" transitive="false" />
+	   <!--dependency conf="lib->default" org="com.github.mpkorstanje" name="simmetrics" rev="4.1.1" changing="false" transitive="false" /-->
  	   <dependency conf="lib->default" org="xpp3" name="xpp3" rev="1.1.4c" changing="false" transitive="false" />
     </dependencies>
 </ivy-module>
