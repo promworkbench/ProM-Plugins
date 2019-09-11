@@ -18,7 +18,7 @@ import org.processmining.framework.plugin.annotations.PluginLevel;
 import org.processmining.framework.plugin.annotations.PluginVariant;
 import org.processmining.framework.util.HTMLToString;
 
-@Plugin(name = "Show Package Overview", parameterLabels = {}, level= PluginLevel.BulletProof, returnLabels = { "Release info" }, returnTypes = { HTMLToString.class }, userAccessible = true)
+@Plugin(name = "Show Package Overview", parameterLabels = {}, level= PluginLevel.Regular, returnLabels = { "Release info" }, returnTypes = { HTMLToString.class }, userAccessible = true)
 public class ShowPackageOverviewPlugin implements HTMLToString {
 
 	private Collection<PluginDescriptor> pluginDescriptors;
